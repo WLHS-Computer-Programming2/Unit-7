@@ -4,7 +4,7 @@ This homework is from Python Crash Course, 3rd Edition, by Eric Matthes. To subm
 
 ## Problem 1
 Open a blank file in your text editor called my_learning.txt and write a few lines summarizing what you’ve learned about Python so far. Start each line with the phrase "In Python you can. . . ."
-Save the file as learning_python.txt in the same directory as your exercises from this chapter. Write a program that reads the file
+Save the file my_learning.txtt in the same directory as your exercises from this chapter. Write a program that reads the file
 and prints what you wrote two times: print the contents once by reading in the entire file, and once by storing the lines in a list and then looping over each line.
 
 ## Problem 2
@@ -14,7 +14,7 @@ You can use the replace() method to replace any word in a string with a differen
 >>> message.replace('dog', 'cat')
 'I really like cats.'
 ```
-Read in each line from the file you just created, learning_python.txt, and replace the word Python with the name of another language, such as C. Print each modified line to the screen.
+Read in each line from the file you just created, my_learning.txt, and replace the word Python with the name of another language, such as C. Print each modified line to the screen.
 
 ## Problem 3
 The program file_reader.py in this section uses a temporary variable, lines, to show how splitlines() works. You can skip the temporary variable and loop directly over the list that splitlines() returns:
