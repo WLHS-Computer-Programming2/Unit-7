@@ -12,7 +12,7 @@ def main():
   # print(contents)
 
   # read line by line
-  path = Path('Period_3\million_digits_pi.txt')
+  path = Path(r'Period_3\million_digits_pi.txt')
   contents = path.read_text()
 
   lines = contents.splitlines()
