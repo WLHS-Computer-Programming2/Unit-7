@@ -12,9 +12,13 @@ from pathlib import Path
 # full_name = input("Enter your full name: ")
 # path.write_text(full_name)
 
-path = Path(r'Period_3\alice.txt')
-try:
-    path.read_text()
-except FileNotFoundError:
-    print(f"The file {path} does not exist")
+# Exception handling
+# path = Path(r'Period_3\alice.txt')
+# try:
+#     path.read_text()
+# except FileNotFoundError:
+#     print(f"The file {path} does not exist")
 
+file_name = input("Give me a good file name: ")
+path = Path(file_name)
+path.write_text("Success!")

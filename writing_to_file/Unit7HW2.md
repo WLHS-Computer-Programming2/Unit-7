@@ -15,12 +15,12 @@ class_test_data={
         "John Doe":{"Test 1":78,"Test 2":82,"Test 3":79},
         "Emily Jones":{"Test 1":92,"Test 2":95,"Test 3":96},
         "Michael Brown":{"Test 1":88,"Test 2":84,"Test 3":90}
-    }
+}
 ```
-Write a function called grade_book_creator that will take in the dictionary file and make a file for each person with their grades in it. The filename should be their name.txt and the contents would look like the following:
+Write a function called grade_book_creator that will take in the dictionary file and make a text file for each person with their grades in it. The filename should be their name.txt and the contents would look like the following:
 ```
 Name: Billy Bot
 Test 1: 95
 Test 2: 90
-Test 2: 87
+Test 3: 87
 ```
