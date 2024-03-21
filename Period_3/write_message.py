@@ -20,5 +20,6 @@ from pathlib import Path
 #     print(f"The file {path} does not exist")
 
 file_name = input("Give me a good file name: ")
-path = Path(file_name)
+path = Path(f"{file_name}.txt")
 path.write_text("Success!")
+print(fr"\nthis is a string")
