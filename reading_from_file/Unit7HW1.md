@@ -4,7 +4,7 @@ This homework is from Python Crash Course, 3rd Edition, by Eric Matthes. To subm
 
 ## Problem 1
 Open a blank file in your text editor called my_learning.txt and write a few lines summarizing what you’ve learned about Python so far. Start each line with the phrase "In Python you can. . . ."
-Save the file my_learning.txtt in the same directory as your exercises from this chapter. Write a program that reads the file
+Save the file my_learning.txt in the same directory as your exercises from this chapter. Write a program that reads the file
 and prints what you wrote two times: print the contents once by reading in the entire file, and once by storing the lines in a list and then looping over each line.
 
 ## Problem 2
